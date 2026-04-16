@@ -20,6 +20,7 @@ drwxrwxr-x.  2 user user   78 Feb 28  2016 __MACOSX
 
 - Create a S3 bucket in the same AWS region as the Amazon SageMaker domain.
 - Add inside the S3 bucket, a folder called **training-data**.
+- Add inside the S3 bucket, a other folder called **output**. We are going to store the traning output here in the future.
 - Upload our dataset file (**newsCorpora.csv**) into the s3 bucket folder **training-data**.
 
 ### 3. Exploratory Data Analysis (EDA)
