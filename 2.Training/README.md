@@ -84,3 +84,11 @@ The moment you run `.fit()`, the `SageMaker Session` performs these 5 steps auto
 - **Data Transfer**: It downloads your training data from S3 into that new instance.
 - **Container Execution**: It pulls the Hugging Face Docker image, injects your code, and runs your training script.
 - **Artifact Cleanup**: Once the training is done, it saves the model to your output_path and immediately terminates the instance so you stop paying for it.
+
+## 3. Understanding the training script: `Script.py`
+In order to better understand the training script `script.py`, consult the following 2 documents:
+
+- [LLM-Transformers](https://github.com/egafossojm/ai-engineering/blob/main/math-llm-transformers/understand-llm-and-transformers.md)
+- [ExperimentatationNotebook](https://github.com/egafossojm/ml-text-classification-project/blob/main/2.Training/ExperimentationNotebook.ipynb)
+
+
