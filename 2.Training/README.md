@@ -1,4 +1,4 @@
-# Prepare the training notebook
+# The training notebook
 
 The main purpose of this section is to build our `Hugging Face Estimator`
 
@@ -90,5 +90,37 @@ In order to better understand the training script `script.py`, consult the follo
 
 - [LLM-Transformers](https://github.com/egafossojm/ai-engineering/blob/main/math-llm-transformers/understand-llm-and-transformers.md)
 - [ExperimentatationNotebook](https://github.com/egafossojm/ml-text-classification-project/blob/main/2.Training/ExperimentationNotebook.ipynb)
+
+## 4. Training job
+
+- Start the training job
+
+Execute the following cel to start the training job:
+```python
+huggingface_estimator.fit()
+```
+
+- Training job in SageMaker console
+
+After you start the training job, navigate to `Amazone SageMaker AI > Training & tuning jobs > Training jobs > Select the job` to view details about the job configurations.
+
+At the bottom of this page, in the **Monitor** section, you can hit `View logs` to view training job's logs in CloudWatch. 
+
+> [!NOTE]
+>
+> Once the training job has started, you can shutdown the **TrainingNotebook** instance in JupyterLab. 
+>The training job will keep going.
+
+
+## 5. Training job results
+
+Once the training job has completed, The trained model binaries (The model and its vocabulary) will be stored in the **output** folder of your bucket as an `.tar.gz` archive.
+
+```bash
+$ tar -zvtf model.tar.gz 
+pytorch_distilbert_news.bin
+vocab_distilbert_news.bin
+```
+
 
 
