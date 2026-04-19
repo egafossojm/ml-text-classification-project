@@ -86,7 +86,7 @@ data = {"inputs": "The stock market hit an all time low"}
 prediction = predictor.predict(data)
 ```
 
-Run this cel to see the result.
+Run this cel to and see the result.
 
 
 
