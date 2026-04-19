@@ -1,6 +1,6 @@
 # Load Testing
 
-The main purpose of this section is to **Inference Recommendations**
+The main purpose of this section is to get **Inference Recommendations**
 
 ## 1. What are Inference Recommendations ?
 
@@ -40,15 +40,13 @@ drwxrwxr-x. 7 user user 111 Apr 17 11:48 ..
 
 >[!NOTE]
 >
->Each time you deploy a Model Endpoint in SageMaker, a corresponding Model is created.
->
->Even if you delete the Endpoint, the model remains.
->
+>Each time you deploy a Model Endpoint in SageMaker, a corresponding Model is created.\
+>Even if you delete the Endpoint, the model remains.\
 >We don't need the endpoint for the load test, juste the model.
 > - view the model Endpoint at `Amazon SageMaker AI > Deployments & Inference > Enpoints`
 > - View its corresonding model at  `Amazon SageMaker AI > Model governance > Model dashboard`
 
->[!Tips]
+>[!TIPS]
 >
 >It could be difficult to identify an endpoint and its corresponding model if there are plenty.
 >It's a good practice to name the model as well as its EndPoint.
