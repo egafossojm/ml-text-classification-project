@@ -46,7 +46,7 @@ drwxrwxr-x. 7 user user 111 Apr 17 11:48 ..
 > - view the model Endpoint at `Amazon SageMaker AI > Deployments & Inference > Enpoints`
 > - View its corresonding model at  `Amazon SageMaker AI > Model governance > Model dashboard`
 
->[!TIPS]
+>[!TIP]
 >
 >It could be difficult to identify an endpoint and its corresponding model if there are plenty.
 >It's a good practice to name the model as well as its EndPoint.
