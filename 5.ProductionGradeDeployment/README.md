@@ -12,7 +12,9 @@ See [Deployment](https://github.com/egafossojm/ml-text-classification-project/tr
 
 - Make sure the function has permissions to access SageMaker
 - Deploy the [aws-lambda-llm-endpoint-invoke-function.py](https://github.com/egafossojm/ml-text-classification-project/blob/main/5.ProductionGradeDeployment/aws-lambda-llm-endpoint-invoke-function.py) lambda function.
->[!NOTE] Replace the placeholder with your endpoint.
+>[!NOTE] 
+>
+> Replace the placeholder with your endpoint.
 
 - Test the function  with the direct **headline** commented in the code
 
