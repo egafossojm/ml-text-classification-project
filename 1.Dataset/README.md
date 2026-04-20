@@ -1,7 +1,7 @@
 # Dataset
 
 ### 1. Download the dataset
-- You can download the dataset here:  https://archive.ics.uci.edu/dataset/359/news+aggregator.\
+- You can download the dataset here:  https://archive.ics.uci.edu/dataset/359/news+aggregator.
 You will get a zip file named **news+aggregator.zip**
 - Extract it on your machine. our dataset resides in the **newsCorpora.csv** file.
 ```bash
