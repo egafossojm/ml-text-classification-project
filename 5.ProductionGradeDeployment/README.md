@@ -14,9 +14,8 @@ See [Deployment](https://github.com/egafossojm/ml-text-classification-project/tr
 - Deploy the [aws-lambda-llm-endpoint-invoke-function.py](https://github.com/egafossojm/ml-text-classification-project/blob/main/5.ProductionGradeDeployment/aws-lambda-llm-endpoint-invoke-function.py) lambda function.
 >[!NOTE] 
 >
-> Replace the placeholder with your endpoint.
-
-- Test the function  with the direct **headline** commented in the code
+> - Replace the placeholder with your endpoint.
+> - Test the function  with the direct **headline** commented in the code
 
 ### 4. Set up an API Endpoint
 
